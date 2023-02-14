@@ -42,7 +42,7 @@ What is the purpose of Clean Code?
 ## Method Names
 
 - Method names should be a verb or a verb phrase
-  - Ex: Save, SendMessage, Publish
+  - Ex: `Save()`, `SendMessage()`, `Publish()`
 - Accessors, Mutators, and predicates should be named by their value
   - Ex: get, set, is, isNewOrder
 
@@ -50,8 +50,8 @@ What is the purpose of Clean Code?
 
 - "Choose clarity over entertainment value" - pg26
 - "Say what you mean. Mean What you say" - pg26
-  - Ex: Whack() may be a clever/funny way to describe a method. However, if the next developer doesn't share the author's sense of humor then they might miss the true intent of the method.
-  - The Whack() is suppose to represent the action of killing an application. So it might be better to name the method Kill() or KillApplication().
+  - Ex: `Whack()` may be a clever/funny way to describe a method. However, if the next developer doesn't share the author's sense of humor then they might miss the true intent of the method.
+  - The `Whack()` is suppose to represent the action of killing an application. So it might be better to name the method `Kill()` or `KillApplication()`.
 
 ---
 
@@ -66,7 +66,7 @@ What is the purpose of Clean Code?
 - Functions should be preforming one action or task
 - "Functions should do one thing. They should do it well. They should do it only." - pg 35
 
-##What do this quote mean by "one thing"?
+## What do this quote mean by "one thing"?
 
 - In order for our function to be executing "one thing", we need to make sure that the statements within our function are all on the same level of abstraction.
 
@@ -116,7 +116,7 @@ public class Program
 ```
 
 - Removing that additional method makes the code much easier to read and understand.
-- **Note**: Multiple levels of abstraction is not always bad. Just be aware of it when it pertains to building methods :)
+- **Note**: Multiple levels of abstraction is not always bad. Just be aware of it when it pertains to building methods :smiley:
 
 ## The Stepdown Rule
 
@@ -132,6 +132,7 @@ public class Program
   > "You know you are working on clean code when each routine turns out to be pretty much what you expected." pg39
 - The goal of achieving this principle is simple, make sure to choose good names for small functions that do one thing.
 - The smaller and more focused a function is, the easier it is to choose a descriptive name.
+  
   Ex: `IsTestable()` or `IsLeapYear()`.
 
 ### Don't be afraid to make a long name
@@ -148,9 +149,29 @@ public class Program
 
 - Don't be afraid to spend sometime on the method name.
 
-  - If I haven't mentioned it enough, it is very useful to have a meaningful name! :sunglasses:
+  - If I haven't mentioned it enough, it is very useful to have a meaningful method name! :sunglasses:
 
 - Be consistent with your names
   - Use the same **phrases, nouns, and verbs** in the function names
 
-## Function Arguments :monocle_face:
+## Function Arguments 
+
+### Fewer Arguments are Better
+- Functions with fewer arguments are easier to understand and use. 
+- When a function has too many arguments, it can become difficult to keep track of what each argument represents and how they should be used.
+
+### Arguments Should Tell a Story 
+- Good function arguments should clearly communicate what the function does. 
+- Ideally, someone should be able to read the arguments and understand the purpose of the function without reading the implementation.
+
+### Use Default Values 
+- When a function has many optional arguments, it can be helpful to use default values for the ones that are frequently used. 
+- This allows the caller to only specify the arguments that are important to them.
+
+### Use Exceptions Instead of Error Codes
+- Functions should use exceptions to indicate error conditions instead of returning error codes. 
+- This makes it easier to understand the code and reduces the likelihood of bugs.
+
+### Avoid Output Arguments 
+- Functions should return values, not modify output arguments. 
+- This makes the code easier to understand and avoids unexpected side effects.
