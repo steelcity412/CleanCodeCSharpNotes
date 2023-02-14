@@ -1,17 +1,22 @@
-# Notes from _Clean Code: A Handbook of Agile Software Craftsmanship_ by Robert C. Martin
+# Personal Notes from _Clean Code: A Handbook of Agile Software Craftsmanship_ by Robert C. Martin
 
-![GitHub last commit](https://img.shields.io/github/last-commit/steelcity412/notes?label=Last%20updated&logo=LastCommit&style=plastic) ![GitHub Repo stars](https://img.shields.io/github/stars/steelcity412/notes?color=Green&logo=RepoStars&style=plastic) ![GitHub forks](https://img.shields.io/github/forks/steelcity412/notes?color=green&logo=Forks&style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/steelcity412/notes?color=green&label=watchers&logo=RepoWatchers&style=plastic) ![GitHub followers](https://img.shields.io/github/followers/steelcity412?label=GitHub%20Followers&style=plastic) ![GitHub User's stars](https://img.shields.io/github/stars/steelcity412?affiliations=OWNER&label=GitHub%20Stars&logo=UserStats&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/steelcity412/CleanCodeCSharpNotes?label=Last%20updated&logo=LastCommit&style=plastic) ![GitHub Repo stars](https://img.shields.io/github/stars/steelcity412/CleanCodeCSharpNotes?color=Green&logo=RepoStars&style=plastic) ![GitHub forks](https://img.shields.io/github/forks/steelcity412/CleanCodeCSharpNotes?color=green&logo=Forks&style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/steelcity412/CleanCodeCSharpNotes?color=green&label=watchers&logo=RepoWatchers&style=plastic) ![GitHub followers](https://img.shields.io/github/followers/steelcity412?label=GitHub%20Followers&style=plastic) ![GitHub User's stars](https://img.shields.io/github/stars/steelcity412?affiliations=OWNER&label=GitHub%20Stars&logo=UserStats&style=plastic)
 
-Link to book:
+## Summary:
+
+This document contains my notes and highlights from reading the book 'Clean Code: A Handbook of Agile Software Craftsmanship' by Robert Cecil Martin. The book delves into the principles and practices of writing clean, maintainable, and readable code. It covers topics such as naming conventions, functions, objects, and data structures, as well as larger issues such as architecture and system design. By following the author's guidelines and examples, I aim to improve my own coding skills and enhance the quality of my code. The author's expertise in software development and his clear and concise writing style make 'Clean Code' a valuable resource for anyone looking to improve their coding skills and write high-quality, maintainable code. If you're interested in learning more about writing clean and maintainable code, I highly recommend this book.
+
+## :open_book: Where to buy book:
 
 - [Amazon](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Barnes & Noble](https://www.barnesandnoble.com/w/clean-code-robert-c-martin/1101628669)
 
 ## :warning: **Disclaimers**:
 
 - **These are just notes I took while reading the book.**
 - **I do not cover all the topics in this book so take sometime to read the book and show support to the author!**
 - **Examples provided will be written in C#**
-- **Give this a follow if this helped you out!** :)
+- **Give this a follow if this helped you out!** :smiley:
 
 ---
 
