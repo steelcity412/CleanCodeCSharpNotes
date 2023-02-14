@@ -11,7 +11,7 @@ Link to book:
 - **These are just notes I took while reading the book.**
 - **I do not cover all the topics in this book so take sometime to read the book and show support to the author!**
 - **Examples provided will be written in C#**
-- **Give this a follow if this helped you out!** :)
+- **Give this a follow if this helped you out!** :smiley:
 
 ---
 
