@@ -1,12 +1,17 @@
-# Clean Code: A Handbook of Agile Software Craftsmanship
+# Notes from _Clean Code: A Handbook of Agile Software Craftsmanship_ by Robert C. Martin
 
-by Robert C. Martin
+![GitHub last commit](https://img.shields.io/github/last-commit/steelcity412/notes?label=Last%20updated&logo=LastCommit&style=plastic) ![GitHub Repo stars](https://img.shields.io/github/stars/steelcity412/notes?color=Green&logo=RepoStars&style=plastic) ![GitHub forks](https://img.shields.io/github/forks/steelcity412/notes?color=green&logo=Forks&style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/steelcity412/notes?color=green&label=watchers&logo=RepoWatchers&style=plastic) ![GitHub followers](https://img.shields.io/github/followers/steelcity412?label=GitHub%20Followers&style=plastic) ![GitHub User's stars](https://img.shields.io/github/stars/steelcity412?affiliations=OWNER&label=GitHub%20Stars&logo=UserStats&style=plastic)
 
 Link to book:
 
 - [Amazon](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
-## :warning: **Disclaimer: Examples provided will be written in C#**
+## :warning: **Disclaimers**:
+
+- **These are just notes I took while reading the book.**
+- **I do not cover all the topics in this book so take sometime to read the book and show support to the author!**
+- **Examples provided will be written in C#**
+- **Give this a follow if this helped you out!** :)
 
 ---
 
