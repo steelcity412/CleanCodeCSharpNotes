@@ -175,3 +175,34 @@ public class Program
 ### Avoid Output Arguments 
 - Functions should return values, not modify output arguments. 
 - This makes the code easier to understand and avoids unexpected side effects.
+
+
+## Structure Programming
+- Structured programming is a programming paradigm that emphasizes the use of structured control flow constructs (such as loops, conditionals, and subroutines) to make code easier to reason about.
+- This concept helps avoid the "spaghetti code" problem that can occur when code becomes too complex and difficult to follow. By breaking code into smaller, more understandable pieces, developers can more easily identify bugs, make changes, and ensure that code is working as intended.
+- A basic example in C# that demonstrates structured programming principles:
+
+```C#
+public int FindMax(int[] numbers)
+{
+    int max = numbers[0];
+
+    for (int i = 1; i < numbers.Length; i++)
+    {
+        if (numbers[i] > max)
+        {
+            max = numbers[i];
+        }
+    }
+
+    return max;
+}
+```
+- This function takes an array of integers and returns the maximum value in the array. 
+- It uses a simple for `loop` to iterate over the array, comparing each value to the current maximum value and updating it if a larger value is found. 
+- By breaking the problem down into smaller steps, and using a clear and concise control flow structure, this code is easier to understand and maintain than if it were written as a long, convoluted series of nested conditionals or loops.
+
+## How do I write functions with the concepts mentioned in this chapter?
+- To put it simply - you can't on your first try.
+- My rule is to build out the function and then come back and refactor with the concepts mentioned in this section
+- You can spend time refactoring when you start building the function but I've found that it is beneficial to refactor once the function or logic is built.
